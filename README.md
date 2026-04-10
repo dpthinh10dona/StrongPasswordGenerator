@@ -55,23 +55,13 @@ Mô hình đạt được mức Loss thấp (~0.01) sau 5 epochs huấn luyện 
 
 ---
 
-## 🧪 Tác Giả
+## 👨‍💻 Tác Giả
 
 Dự án được thực hiện bởi Nhóm **TrustMiBroo**.
 
-* Github: https://github.com/dothinh010dana
+* Github: https://github.com/dpthinh10dona
 * Dự án: StrongPasswordGenerator
 
 ---
 
 > **Lưu ý:** Dự án này phục vụ mục đích học tập và nghiên cứu của cá nhân trong lĩnh vực an ninh mạng.
-
----
-
-### 🔍 Tóm tắt
-
-1. Tạo sao bạn xây dựng hệ thống này?
-2. Sử dụng Bag-of-words, các kiến trúc Python, Scikit-learn & dữ trang giúp dự đoán.
-3. Huấn luyện với RNN hoặc LSTM để sinh mật khẩu.
-4. Áp dụng cơ chế Gradient để chuyển mã (Character-level, Self-Attention,...)
-
