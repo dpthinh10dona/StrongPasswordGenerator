@@ -17,10 +17,61 @@ Dự án được phát triển nhằm mục đích ứng dụng các mô hình 
 * **Machine Learning:** Scikit-learn (Mô hình phân lớp Random Forest)
 * **Xử lý dữ liệu:** Pandas, NumPy
 * **Môi trường:** Python 3, Google Colab (Tối ưu hóa huấn luyện trên GPU)
-
 ## 🚀 Hướng dẫn cài đặt & Chạy dự án
 
 ### 1. Cài đặt thư viện
 Yêu cầu Python >= 3.8. Cài đặt các gói phụ thuộc bằng lệnh:
-```bash
+```
 pip install torch pandas scikit-learn tqdm
+```
+### 2. Cấu trúc mã nguồn
+
+* `StrongPasswordGenerator.ipynb`: File huấn luyện và thực hiện thí nghiệm trên Google Colab.
+* `passwords_dataset.csv`: Dữ liệu huấn luyện (tải từ Kaggle).
+* `README.md`: Hướng dẫn dự án.
+
+### 3. Ví dụ chạy thực tế
+
+Hệ thống sẽ yêu cầu bạn nhập tiêu chí và mật khẩu gốc:
+
+```python
+# Ví dụ cấu hình
+criteria = {"LOWER": 1, "UPPER": 1, "NUM": 1, "SPEC": 1}
+weak_pw = "toranub123"
+
+# Kết quả từ AI
+Mật khẩu nâng cấp: toranub123!A
+Điểm độ mạnh: 99% (Mạnh)
+
+
+
+```
+
+---
+
+## 📊 Kết Quả Huấn Luyện
+
+Mô hình đạt được mức Loss thấp (~0.01) sau 5 epochs huấn luyện trên tập dữ liệu mật khẩu lớn, cho thấy khả năng sinh chuỗi ký tự rất gần với hành vi đặt mật khẩu an toàn của con người.
+
+---
+
+## 🧪 Tác Giả
+
+Dự án được thực hiện bởi Nhóm **TrustMiBroo**.
+
+* Github: https://github.com/dothinh010dana
+* Dự án: StrongPasswordGenerator
+
+---
+
+> **Lưu ý:** Dự án này phục vụ mục đích học tập và nghiên cứu của cá nhân trong lĩnh vực an ninh mạng.
+
+---
+
+### 🔍 Tóm tắt
+
+1. Tạo sao bạn xây dựng hệ thống này?
+2. Sử dụng Bag-of-words, các kiến trúc Python, Scikit-learn & dữ trang giúp dự đoán.
+3. Huấn luyện với RNN hoặc LSTM để sinh mật khẩu.
+4. Áp dụng cơ chế Gradient để chuyển mã (Character-level, Self-Attention,...)
+
