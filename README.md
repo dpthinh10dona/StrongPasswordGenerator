@@ -57,7 +57,7 @@ Mô hình đạt được mức Loss thấp (~0.01) sau 5 epochs huấn luyện 
 
 ## 👨‍💻 Tác Giả
 
-Dự án được thực hiện bởi Nhóm **TrustMiBroo**.
+Dự án được thực hiện bởi Nhóm **TrustMiiBro**.
 
 * Github: https://github.com/dpthinh10dona
 * Dự án: StrongPasswordGenerator
